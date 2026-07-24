@@ -24,8 +24,8 @@
 #define OLGA_ASSERT(x) assert(x)
 #endif
 
-#ifndef CAVL_ASSERT
-#define CAVL_ASSERT(x) OLGA_ASSERT(x)
+#ifndef CAVL2_ASSERT
+#define CAVL2_ASSERT(x) OLGA_ASSERT(x)
 #endif
 
 #include <cavl2.h> // Add to your include paths: https://github.com/pavel-kirienko/cavl
