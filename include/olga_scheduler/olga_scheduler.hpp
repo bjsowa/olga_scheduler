@@ -18,7 +18,7 @@
 #pragma once
 
 #ifndef OLGA_ASSERT
-#include <assert.h>
+#include <cassert>
 #define OLGA_ASSERT(x) assert(x)
 #endif
 
